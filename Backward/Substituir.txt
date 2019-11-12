@@ -1,0 +1,17 @@
+#Substituindo os valores texto do rotulo por numero
+dados = dados.replace({'species':{'setosa':1}})
+dados = dados.replace({'species':{'versicolor':2}})
+dados = dados.replace({'species':{'virginica':3}})
+
+
+subistituir 
+from sklearn.cross_validation import train_test_split
+
+por
+from sklearn.model_selection import train_test_split
+
+Substituir
+import statsmodels.formula.api as sm
+
+por ou seha excluir a palavra formula
+import statsmodels.api as sm
